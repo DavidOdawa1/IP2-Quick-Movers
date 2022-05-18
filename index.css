@@ -1,0 +1,140 @@
+body{
+    width: auto;
+    padding: 0;
+}
+.navbar{
+    height:700px;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+    background-size: cover;
+    background-image: url("/assets/images/moving\ 1.png")
+} 
+  
+
+.navbar >ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    list-style: none;
+}
+.navbar >ul >li{
+    color: white;
+}
+.navbar >ul >li >button{
+    background-color: yellow;
+    color: black;
+}
+.navbar >ul >li >a{
+    background-color: black;
+    color: yellow
+    
+}
+
+div.segment1{
+    padding: 40px;
+}
+.segment1 >p{
+    font-size: 60px;
+    color: yellow;
+}
+.segment1 >#parag >p{
+    font-size: 30px;
+}
+.segment2{
+    display: flex;
+}
+#par{
+    padding: 100px 50px;
+}
+#par > h1{
+    font-weight: lighter;
+}
+#par > h1 span{
+    font-weight: lighter;
+    text-decoration: overline;
+}
+.segment2 >#par > button{
+    color: yellow;
+    
+}
+.Movers{
+    background-color: rgb(236, 229, 229);
+    justify-content: right;
+    padding: 50px 100px 0 100px;
+}
+.Movers >h1{
+    font-weight: lighter;
+}
+.Movers >h1 span{
+    text-decoration: overline;
+}
+#align1, #align2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.foot{
+    background-color: black;
+    height: 400px;
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+}
+.foot >#head >h2{
+    padding-left: 90px;
+    color: white;
+    padding-top: 40px;
+}
+.foot >#head >h2 >span{
+    color: orange;
+}
+.foot >#links {
+    color: white;
+    padding: 20px 80px 100px 800px;
+    font-size: small;
+}
+/*==========PAGE 2=========*/
+
+.Navsection{
+    background-color: rgb(39, 30, 4);
+    color: white;
+    justify-content: center;
+}
+#nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav-bar button{
+    background-color:  #FFAC12;
+    border: none;
+}
+    
+.subsection{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.subsection span{
+    font-size: smaller;
+}
+#body{
+    display: flex;
+    justify-content: center;
+}
+#profile ul a{
+    display: block;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+
+
+
+
+
